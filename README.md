@@ -13,7 +13,7 @@ A Flask-based application for predicting stock prices using linear regression. T
 
 ## Features
 - Load historical stock data from CSV files.
-- Randomly select securities for prediction.
+- Randomly select entries for prediction.
 - Train a linear regression model on historical data.
 - Predict future stock prices based on the trained model.
 - Save prediction results to CSV files.
@@ -53,7 +53,7 @@ Predicts stock prices for a given exchange.
 **Request Body:**
 ```json
 {
-    "exchange": "your_securities_directory",
+    "exchange": "your_exchange_type",
     "num_securities": 3
 }
 ```
