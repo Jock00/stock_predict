@@ -9,7 +9,6 @@ A Flask-based application for predicting stock prices using linear regression. T
 - [API Endpoints](#api-endpoints)
 - [Directory Structure](#directory-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Load historical stock data from CSV files.
@@ -93,5 +92,3 @@ Returns a JSON array of predicted stock prices (which will be saved in
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
